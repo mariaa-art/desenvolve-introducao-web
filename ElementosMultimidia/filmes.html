@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px;
+        }
+        .gallery-item {
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 200px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            background: #fff;
+        }
+        .gallery-item a:hover {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Filmes Favoritos</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="enrolados.jpg" alt="Enrolados">
+            <a href="https://pt.wikipedia.org/wiki/Tangled" target="_blank">Enrolados</a>
+        </div>
+        <div class="gallery-item">
+            <img src="starwars.jpg" alt="Star Wars: Os Últimos Jedi">
+            <a href="https://pt.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi" target="_blank">Star Wars: Os Últimos Jedi</a>
+        </div>
+        <div class="gallery-item">
+            <img src="ossemfloresta.jpg" alt="Os Sem-Floresta">
+            <a href="https://pt.wikipedia.org/wiki/Over_the_Hedge" target="_blank">Os Sem-Floresta</a>
+        </div>
+        <div class="gallery-item">
+            <img src="jogosvorazes.jpg" alt="Jogos Vorazes">
+            <a href="https://pt.wikipedia.org/wiki/The_Hunger_Games" target="_blank">Jogos Vorazes</a>
+        </div>
+        <div class="gallery-item">
+            <img src="hp.jpg" alt="Harry Potter">
+            <a href="https://pt.wikipedia.org/wiki/Harry_Potter" target="_blank">Harry Potter</a>
+        </div>
+        <div class="gallery-item">
+            <img src="re.jpg" alt="Resident Evil">
+            <a href="https://pt.wikipedia.org/wiki/Resident_Evil_(s%C3%A9rie_de_filmes)" target="_blank">Resident Evil</a>
+        </div>
+    </div>
+</body>
+</html>
