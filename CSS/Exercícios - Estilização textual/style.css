@@ -1,0 +1,87 @@
+/* Paleta de cores */
+:root {
+    --cor-fundo: #e0f7fa; /* Azul claro */
+    --cor-fonte: #2e7d32; /* Verde escuro */
+    --cor-destaque: #ff8f00; /* Laranja */
+}
+body {
+    max-width: 1200px; 
+    margin: 0 auto;
+    font-family: sans-serif; 
+    background-color: var(--cor-fundo); 
+    color: var(--cor-fonte);
+    line-height: 1.6; 
+}
+
+p {
+    text-indent: 1em; 
+}
+
+/* Estilos para títulos */
+h1, h2, h3 {
+    text-align: center; 
+    color: var(--cor-destaque); 
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem; 
+}
+
+h3 {
+    font-size: 1.2rem; 
+}
+.summary {
+    text-align: right; 
+}
+.main p {
+    line-height: 1.5; 
+}
+/* abreviaturas */
+abbr {
+    font-variant: small-caps; 
+}
+.destaque {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+header {
+    background-color: var(--cor-fonte);
+    color: var(--cor-fundo);
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: var(--cor-fonte);
+    color: var(--cor-fundo);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer a {
+    color: var(--cor-fundo);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* links */
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

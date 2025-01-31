@@ -1,0 +1,7 @@
+RESPOSTA:
+
+HTTP: É o protocolo de comunicação utilizado para transferir dados na web. Ele define como as mensagens são formatadas e transmitidas, permitindo a comunicação entre clientes (como navegadores) e servidores. O HTTPS é a versão segura do HTTP, que usa criptografia para proteger os dados durante a transmissão.
+
+URL: É o endereço que identifica a localização de um recurso na web. Uma URL inclui o protocolo (como HTTP ou HTTPS), o domínio (como example.com), e pode conter um caminho e parâmetros para acessar uma página específica ou recurso.
+
+HTML: É a linguagem de marcação padrão usada para criar e estruturar o conteúdo de páginas da web. O HTML organiza textos, imagens e links em uma hierarquia, permitindo que navegadores interpretem e apresentem o conteúdo de maneira adequada.

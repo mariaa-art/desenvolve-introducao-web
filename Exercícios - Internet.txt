@@ -1,0 +1,7 @@
+RESPOSTA:
+
+1. Uma máquina cliente solicita serviços ou dados a uma máquina servidor, como ao acessar um site. O cliente inicia a comunicação e envia uma requisição, enquanto o servidor, que possui os dados ou serviços, processa e responde ao pedido. Essa troca ocorre via protocolos como HTTP para garantir a compatibilidade. O servidor fica em espera até receber um pedido, e o cliente realiza novas requisições conforme necessário, formando a base da arquitetura cliente-servidor.
+
+2. Domínios são nomes únicos que identificam sites na Internet, substituindo endereços IP por algo mais fácil de lembrar, como exemplo.com. Eles facilitam o acesso e a navegação, tornando a localização de sites mais simples para os usuários. Domínios ajudam a organizar a Internet, garantindo que cada site seja identificado de forma única; por exemplo, ao digitar www.google.com, sabemos que acessaremos uma página de busca.
+
+3. O IP = 2800:3f0:4001:821::2004

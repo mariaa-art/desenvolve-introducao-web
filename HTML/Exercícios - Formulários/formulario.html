@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+</head>
+
+<body>
+
+    <h1>Pesquisa de Satisfação</h1>
+
+    <form action="#" method="post">
+        <!-- Dados Pessoais -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone para contato:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+        </fieldset>
+
+        <!-- Pesquisa -->
+        <fieldset>
+            <legend>Pesquisa</legend>
+
+            <!-- Pergunta 1 -->
+            <div class="pergunta">
+                <label>1. Qual é o seu nível de satisfação com o nosso serviço?</label>
+                <div class="opcoes">
+                    <div>
+                        <input type="radio" id="satisfacao1" name="satisfacao" value="Muito Satisfeito" required>
+                        <label for="satisfacao1">Muito Satisfeito</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="satisfacao2" name="satisfacao" value="Satisfeito">
+                        <label for="satisfacao2">Satisfeito</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="satisfacao3" name="satisfacao" value="Neutro">
+                        <label for="satisfacao3">Neutro</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="satisfacao4" name="satisfacao" value="Insatisfeito">
+                        <label for="satisfacao4">Insatisfeito</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="satisfacao5" name="satisfacao" value="Muito Insatisfeito">
+                        <label for="satisfacao5">Muito Insatisfeito</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="pergunta">
+                <label>2. Você recomendaria nossos serviços a outras pessoas?</label>
+                <div class="opcoes">
+                    <div>
+                        <input type="radio" id="recomendacao1" name="recomendacao" value="Sim" required>
+                        <label for="recomendacao1">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="recomendacao2" name="recomendacao" value="Não">
+                        <label for="recomendacao2">Não</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <label for="frequencia">3. Com que frequência você utiliza nossos serviços?</label>
+            <select id="frequencia" name="frequencia" required>
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Diariamente">Diariamente</option>
+                <option value="Semanalmente">Semanalmente</option>
+                <option value="Mensalmente">Mensalmente</option>
+                <option value="Raramente">Raramente</option>
+            </select>
+        </fieldset>
+
+        <div class="checkbox-label">
+            <input type="checkbox" id="autorizacao" name="autorizacao" required>
+            <label for="autorizacao">Autorizo compartilhar minhas respostas com terceiros.</label>
+        </div>
+
+        <!-- Botão -->
+        <button type="submit">Enviar Pesquisa</button>
+    </form>
+
+</body>
+</html>

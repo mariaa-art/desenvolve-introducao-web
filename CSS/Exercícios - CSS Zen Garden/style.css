@@ -1,0 +1,62 @@
+/* paleta de cores */
+:root {
+    --cor-fundo: #e0f7fa; /* Azul claro */
+    --cor-fonte: #2e7d32; /* Verde escuro */
+    --cor-destaque: #ff8f00; /* Laranja */
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--cor-destaque);
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--cor-fonte);
+}
+.destaque {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+header {
+    background-color: var(--cor-fonte);
+    color: var(--cor-fundo);
+    padding: 20px;
+    text-align: center;
+}
+
+/* rodapé */
+footer {
+    background-color: var(--cor-fonte);
+    color: var(--cor-fundo);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: var(--cor-fundo);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

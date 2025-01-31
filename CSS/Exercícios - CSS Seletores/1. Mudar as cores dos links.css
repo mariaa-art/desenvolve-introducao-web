@@ -1,0 +1,7 @@
+a {
+    color: red;
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+a:hover {
+    color:#FFF700;
+}

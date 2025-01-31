@@ -1,0 +1,16 @@
+RESPOSTA:
+
+1.
+Tags são comandos que indicam a função de um elemento, como títulos ou parágrafos. O corpo é o conteúdo dentro das tags. Atributos são informações adicionais nas tags, como links ou configurações.
+
+2.
+Elementos vazios não possuem conteúdo entre as tags e são usados para funções específicas. Exemplos: img (imagem) e br (quebra de linha).
+
+3.
+O código cria uma página com um título e um parágrafo que contém texto e um link para o YouTube.
+
+4.
+a. Elementos vizinhos de <main>: header e footer.
+b. Ancestrais de <ul>: nav, header, body, html.
+c. Filhos de <header>: h1 e nav.
+d. 5 níveis (html, body, main, article, p, strong).

@@ -1,0 +1,152 @@
+/* Paleta de cores */
+:root {
+    --cor-fundo: #e0f7fa; /* Azul claro */
+    --cor-fonte: #2e7d32; /* Verde escuro */
+    --cor-destaque: #ff8f00; /* Laranja */
+}
+
+/* 1. Diretivas gerais para a página */
+body {
+    width: 80%; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    font-family: sans-serif;
+    background-color: var(--cor-fundo); 
+    color: var(--cor-fonte); 
+    line-height: 1.6; 
+}
+
+.page-wrapper {
+    position: relative; 
+}
+#zen-intro {
+    height: 550px; 
+}
+
+#design-archives {
+    display: none; 
+}
+p {
+    text-indent: 1em; 
+}
+h1, h2, h3 {
+    text-align: center; 
+    color: var(--cor-destaque); 
+}
+
+h1 {
+    font-size: 1.8rem; 
+}
+
+h2 {
+    font-size: 1.4rem; 
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+.summary {
+    text-align: right; 
+}
+
+.main p {
+    line-height: 1.5; 
+}
+abbr {
+    font-variant: small-caps; 
+}
+.destaque {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+header {
+    background-color: var(--cor-fonte); 
+    color: var(--cor-fundo); 
+    padding: 20px 0; 
+    text-align: center;
+}
+header h1, header h2 {
+    display: inline-block; 
+    margin: 0 1em; 
+}
+header h1 {
+    padding-left: 1em; 
+}
+/* menus */
+.design-selection ul, .zen-resources ul {
+    list-style-type: none; 
+}
+.design-selection li, .zen-resources li {
+    margin: 1em 0; 
+    text-align: center; 
+}
+footer {
+    background-color: var(--cor-fonte); 
+    color: var(--cor-fundo); 
+    padding: 4%; 
+    text-align: center; 
+    margin-top: 20px;
+}
+footer a {
+    border: 2px solid var(--cor-fundo); 
+    padding: 0.5em; 
+    color: var(--cor-fundo);
+    text-decoration: none; 
+    margin: 0 0.5em; 
+}
+footer a:hover {
+    background-color: var(--cor-fundo); 
+    color: var(--cor-destaque); 
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 2. Reposicionamento do painel .explanation */
+.explanation {
+    width: 60%; 
+    margin-right: 35%; 
+    border-right: 1px solid #1f295c; 
+    padding-right: 2%; 
+    margin-bottom: 40px; 
+}
+
+/* 3. Reposicionamento do menu de designs */
+.design-selection {
+    position: absolute;
+    top: 610px; 
+    left: 62%; 
+    width: 35%; 
+    padding: 0 5%; 
+    box-sizing: border-box; 
+}
+
+.design-selection h3.select {
+    margin-top: 0; 
+    text-align: center; 
+}
+
+.design-selection nav ul {
+    padding-left: 0; 
+    margin: 0; 
+}
+
+.design-selection nav ul li {
+    text-align: left; 
+    margin: 0.5em 0; 
+}
+.participation {
+    margin-top: 40px; 
+}

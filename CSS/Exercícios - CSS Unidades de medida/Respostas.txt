@@ -1,0 +1,9 @@
+1.a)h1: 40px
+b).principal: 56px
+c).secundario: 28px
+
+2.Original: rgb(219, 78, 68)
+
+15% mais clara: rgb(252, 90, 78)
+
+15% mais escura: rgb(186, 66, 58)

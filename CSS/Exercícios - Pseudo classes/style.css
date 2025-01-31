@@ -1,0 +1,206 @@
+/* Paleta de cores */
+:root {
+    --cor-fundo: #dadada; /* Azul claro */
+    --cor-fonte: #5c7ba8; /* Verde escuro */
+    --cor-destaque: #e98615; /* Laranja */
+}
+
+/* 1. Diretivas gerais para a página */
+body {
+    width: 80%; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    font-family: sans-serif;
+    background-color: var(--cor-fundo); 
+    color: var(--cor-fonte); 
+    line-height: 1.6; 
+}
+
+.page-wrapper {
+    position: relative; 
+}
+
+#zen-intro {
+    height: 550px; 
+}
+
+#design-archives {
+    display: none; 
+}
+
+p {
+    text-indent: 1em; 
+}
+
+h1, h2, h3 {
+    text-align: center; 
+    color: var(--cor-destaque); 
+}
+
+h1 {
+    font-size: 1.8rem; 
+}
+
+h2 {
+    font-size: 1.4rem; 
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: right; 
+}
+
+.main p {
+    line-height: 1.5; 
+}
+
+abbr {
+    font-variant: small-caps; 
+}
+
+.destaque {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+header {
+    background-color: var(--cor-fonte); 
+    color: var(--cor-fundo); 
+    padding: 20px 0; 
+    text-align: center;
+}
+
+header h1, header h2 {
+    display: inline-block; 
+    margin: 0 1em; 
+}
+
+header h1 {
+    padding-left: 1em; 
+}
+
+/* menus */
+.design-selection ul, .zen-resources ul {
+    list-style-type: none; 
+}
+
+.design-selection li, .zen-resources li {
+    margin: 1em 0; 
+    text-align: center; 
+}
+
+/* Rodapé  */
+footer {
+    background-color: var(--cor-fonte); 
+    color: var(--cor-fundo); 
+    padding: 4%; 
+    text-align: center; 
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+}
+
+footer a {
+    border: 2px solid var(--cor-fundo); 
+    padding: 0.5em; 
+    color: var(--cor-fundo);
+    text-decoration: none; 
+    flex: 1 1 auto; 
+    min-width: 120px; 
+    text-align: center; 
+}
+
+footer a:hover {
+    background-color: var(--cor-fundo); 
+    color: var(--cor-destaque); 
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.benefits {
+    display: flex; 
+    align-items: center; 
+    border-top: 1px solid #1f295c; 
+    border-bottom: 1px solid #1f295c; 
+}
+
+.benefits h3 {
+    width: 30%; 
+    text-align: right; 
+    margin: 0; 
+    padding-right: 2%; 
+}
+
+.benefits p {
+    width: 70%; 
+    margin: 0; 
+}
+.participation {
+    display: flex; 
+    flex-wrap: wrap; 
+    border-top: 1px solid #1f295c; 
+    border-bottom: 1px solid #1f295c; 
+    margin-top: 40px; 
+}
+
+.participation h3 {
+    width: 50%; 
+    text-align: center; 
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.participation p {
+    width: 50%; 
+    margin: 0; 
+}
+.benefits + .participation {
+    border-top: none; 
+}
+
+/* 1. Customização dos links */
+a {
+    color: var(--cor-destaque); 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ffb74d; 
+}
+
+a:visited {
+    font-weight: normal; 
+}
+
+/* 2. Destaque na primeira letra do primeiro parágrafo da seção principal */
+.main p:first-of-type::first-letter {
+    font-size: 3em; 
+    font-family: 'Georgia', serif; 
+    float: left; 
+    line-height: 1; 
+    margin-right: 0.1em; 
+}
+
+/* 3. Separador entre os itens do menu de design */
+.design-selection nav ul li {
+    border-top: 1px solid #1f295c; 
+    padding-top: 0.5em; 
+    margin-top: 0.5em; 
+}
+
+.design-selection nav ul li:last-child {
+    border-bottom: 1px solid #1f295c; 
+    padding-bottom: 0.5em; 
+}

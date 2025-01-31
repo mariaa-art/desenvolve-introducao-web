@@ -1,0 +1,1 @@
+ O <head>serve para guardar informações sobre a página, como o título que aparece na aba do navegador, links para estilos e configurações. Já o <body> é onde fica o conteúdo que vemos, como textos, imagens e botões. Use <head>` para configurações e <body> para mostrar o conteúdo.
